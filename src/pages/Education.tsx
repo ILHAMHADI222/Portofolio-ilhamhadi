@@ -12,12 +12,12 @@ export const Education = () => {
     {
       id: 1,
       image: '/vite.svg',
-      name: 'IPB University',
-      position: 'Bachelor Engineering',
-      startDate: 'Jan 2017',
-      endDate: 'Jan 2021',
+      name: 'Politeknik Harapan Bersama',
+      position: 'Informatic Engineering',
+      startDate: 'Sep 2022',
+      endDate: 'Nov 2025',
       duration: '4 years',
-      location: 'Bogor',
+      location: 'Tegal',
     },
   ];
   return (

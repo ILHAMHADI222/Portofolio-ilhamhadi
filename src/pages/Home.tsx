@@ -18,17 +18,16 @@ export const Home = () => {
           <div className="ml-1 animate-waving-hand">👋</div>
         </div>
         <h1 className="text-white font-extrabold text-4xl md:text-6xl">
-          Bayu Setiawan
+          ILHAM HADI WICAKSONO
         </h1>
         <h2 className="text-teal-500 font-bold text-xl md:text-3xl">
-          Software Engineer
+          Frontend Engineer
         </h2>
         <p className="text-center md:text-start text-xs md:text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam,
-          neque illo. Vel repudiandae culpa dolorum, accusantium odit rerum
-          commodi totam?
+          Halo perkenalkan saya mahasiswa teknik informatika semester 3
+          saya ingin jadi ceo di perusahan slot
         </p>
-        <Link to="./Bayu-Setiawan-Frontend-Developer-CV.pdf" target="_blank">
+        <Link to="./resume" target="_blank">
           <motion.div
             initial={resume.initial}
             animate={resume.animated}
@@ -49,7 +48,7 @@ export const Home = () => {
           initial={image.initial}
           animate={image.animated}
           transition={image.transition}
-          src="/bayu-no-bg.webp"
+          src="/ilham-no-bg.webp.png"
           alt="profile"
           width="100%"
           height="100%"

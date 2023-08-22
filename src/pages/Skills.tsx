@@ -21,8 +21,8 @@ export const Skills = () => {
     { label: 'Next Js', icon: <IconBrandNextjs /> },
     { label: 'Vue Js', icon: <IconBrandVue /> },
     { label: 'Nuxt Js', icon: <IconBrandNuxt /> },
-    { label: 'Svelte Js', icon: <IconBrandSvelte /> },
-    { label: 'Tailwind CSS', icon: <IconBrandTailwind /> },
+    //{ label: 'Svelte Js', icon: <IconBrandSvelte /> },
+    //{ label: 'Tailwind CSS', icon: <IconBrandTailwind /> },
   ];
   return (
     <motion.section

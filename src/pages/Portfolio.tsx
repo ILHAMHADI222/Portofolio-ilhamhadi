@@ -12,31 +12,31 @@ export const Portfolio = () => {
       id: 1,
       name: 'Portfolio Project',
       image: '/portfolio.webp',
-      link: 'https://codebayu.com',
+      link: '',
     },
     {
       id: 2,
       name: 'Portfolio Project',
       image: '/portfolio.webp',
-      link: 'https://codebayu.com',
+      link: '',
     },
     {
       id: 12,
       name: 'Portfolio Project',
       image: '/portfolio.webp',
-      link: 'https://codebayu.com',
+      link: '',
     },
     {
       id: 13,
       name: 'Portfolio Project',
       image: '/portfolio.webp',
-      link: 'https://codebayu.com',
+      link: '',
     },
     {
       id: 15,
       name: 'Portfolio Project',
       image: '/portfolio.webp',
-      link: 'https://codebayu.com',
+      link: '',
     },
   ];
   return (
