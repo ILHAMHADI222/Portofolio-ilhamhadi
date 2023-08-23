@@ -21,13 +21,14 @@ export const Home = () => {
           ILHAM HADI WICAKSONO
         </h1>
         <h2 className="text-teal-500 font-bold text-xl md:text-3xl">
-          Frontend Engineer
+          Software Engineer
         </h2>
         <p className="text-center md:text-start text-xs md:text-base">
           Halo perkenalkan saya mahasiswa teknik informatika semester 3
-          saya ingin jadi ceo di perusahan slot
+          Di politeknik harapan bersama tegal
+          
         </p>
-        <Link to="./resume" target="_blank">
+        <Link to="./resume" target= "_blank">
           <motion.div
             initial={resume.initial}
             animate={resume.animated}

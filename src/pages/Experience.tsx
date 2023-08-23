@@ -25,7 +25,7 @@ export const Experience = () => {
       name: 'Y Code',
       position: 'UI/UX designer',
       startDate: '1 agustus 2023',
-      endDate: '2 september 2022',
+      endDate: '2 september 2023',
       duration: '1 Months',
       location: 'remote tegal',
     },
