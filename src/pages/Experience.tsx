@@ -33,7 +33,7 @@ export const Experience = () => {
   return (
     <motion.section initial={section.initial} animate={section.animated} transition={section.transition} className="space-y-6">
       <SectionHeader icon={<IconClockPlay />} label="Experience" description={sectionDescription} />
-      <div className="grid grid-cols-4 md:grid-cols-2 lg:grid-cols-2 gap-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
         {experiences.map((experience) => (
           <CommonCard key={experience.id} {...experience} />
         ))}
