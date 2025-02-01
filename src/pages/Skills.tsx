@@ -1,20 +1,5 @@
 import { motion } from "framer-motion";
-import {
-  IconCodeCircle,
-  IconBrandReact,
-  IconBrandNextjs,
-  IconBrandVue,
-  IconBrandNuxt,
-  IconBrandSvelte,
-  IconBrandKotlin,
-  IconBrandPhp,
-  IconBrandJavascript,
-  IconBrandDjango,
-  IconBrandLaravel,
-  IconBrandReactNative,
-  IconBrandDeviantart,
-  IconBrandFlutter,
-} from "@tabler/icons-react";
+import { IconCodeCircle, IconBrandKotlin, IconBrandPhp, IconBrandJavascript, IconBrandDjango, IconBrandLaravel, IconBrandReactNative, IconBrandFlutter } from "@tabler/icons-react";
 import { SectionMotion } from "../common/motion/Section";
 import { SectionHeader } from "../components/SectionHeader";
 import { SkillCard } from "../components/SkillCard";
