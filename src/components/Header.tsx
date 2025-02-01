@@ -1,4 +1,4 @@
-import { IconArmchair, IconBat, IconChairDirector, IconMan, IconMenu2, IconMoodBoy, IconRobot } from "@tabler/icons-react";
+import { IconBat, IconMenu2 } from "@tabler/icons-react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { Link } from "react-router-dom";
