@@ -16,7 +16,7 @@ export const About = () => {
       <p>
         Saya Ilham Hadi Wicaksono adalah seorang Fullstack Web Developer dan Android Developer dengan pengalaman dalam membangun aplikasi berbasis web dan mobile menggunakan berbagai teknologi seperti Laravel, Flutter, dan Dart. Saya juga
         tertarik dan berfokus pada keamanan IT, termasuk penerapan praktik keamanan dalam pengembangan aplikasi. Selain itu, saya memiliki keahlian dalam Machine Learning, khususnya dalam penggunaan CNN untuk deteksi penyakit tanaman. Saat
-        ini, saya juga berperan sebagai Dosen di universitas, serta aktif dalam pengembangan sistem cerdas untuk pertanian (Agrolyn), yang mencakup marketplace, artikel edukatif, deteksi penyakit tanaman, dan forum diskusi.
+        ini, saya juga berperan sebagai mahasiswa aktif di perkuliahan, serta aktif dalam pengembangan sistem cerdas untuk pertanian (Agrolyn), yang mencakup marketplace, artikel edukatif, deteksi penyakit tanaman, dan forum diskusi.
       </p>
       <p>🔹 Keahlian: Fullstack Web Development, Android Development, IT Security, UI/UX Design, PHP (Laravel), Mobile Development (Flutter), Machine Learning</p>
       <p>🔹 Proyek Utama: Agrolyn, Sistem Self-Printing, Chatbot Generatif untuk Pertanian</p>
