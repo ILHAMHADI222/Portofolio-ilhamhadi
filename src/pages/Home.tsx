@@ -14,7 +14,12 @@ export const Home = () => {
         <h2 className="text-blue-500 font-bold text-xl md:text-3xl">Software Engineer | Website Developer | IT Security Enthusiast</h2>
         <p className="text-center md:text-start text-xs md:text-base">Saya adalah software engineer yang sangat berkarir dan ingin membantu perusahaan-perusahaan yang sedang mencari developer baru</p>
         <Link to="./resume" target="_blank">
-          <motion.div initial={resume.initial} animate={resume.animated} transition={resume.transition} className="rounded-3xl w-max border px-4 py-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-black hover:border-blue-500">
+          <motion.div
+            initial={resume.initial}
+            animate={resume.animated}
+            transition={resume.transition}
+            className="rounded-3xl w-max border px-4 py-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-black hover:border-blue-500 mt-4 mb-6 md:mb-0"
+          >
             Download Resume
           </motion.div>
         </Link>
