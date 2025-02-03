@@ -11,15 +11,15 @@ export const Home = () => {
         <div className="flex gap-2 text-md lg:text-2xl font-medium font-sora">
           <span>Hi Selamat Datang!</span> <div className="ml-1 animate-waving-hand">👋</div>
         </div>
-        <h2 className="text-teal-500 font-bold text-xl md:text-3xl">Software Engineer | Website Developer | IT Security Enthusiast</h2>
+        <h2 className="text-blue-500 font-bold text-xl md:text-3xl">Software Engineer | Website Developer | IT Security Enthusiast</h2>
         <p className="text-center md:text-start text-xs md:text-base">Saya adalah software engineer yang sangat berkarir dan ingin membantu perusahaan-perusahaan yang sedang mencari developer baru</p>
         <Link to="./resume" target="_blank">
-          <motion.div initial={resume.initial} animate={resume.animated} transition={resume.transition} className="rounded-3xl w-max border px-4 py-2 border-teal-500 text-teal-500 hover:bg-teal-500 hover:text-black hover:border-teal-500">
+          <motion.div initial={resume.initial} animate={resume.animated} transition={resume.transition} className="rounded-3xl w-max border px-4 py-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-black hover:border-blue-500">
             Download Resume
           </motion.div>
         </Link>
       </motion.div>
-      <motion.div initial={wrapImg.initial} animate={wrapImg.animated} transition={wrapImg.transition} className="flex flex-1 items-center justify-center bg-gradient-to-bl from-emerald-500 via-emerald-900 to-black overflow-hidden">
+      <motion.div initial={wrapImg.initial} animate={wrapImg.animated} transition={wrapImg.transition} className="flex flex-1 items-center justify-center bg-gradient-to-bl from-blue-900 via-blue-100000 to-black overflow-hidden">
         <motion.img initial={image.initial} animate={image.animated} transition={image.transition} src="/ilham-no-bg.webp.png" alt="profile" width="100%" height="100%" />
       </motion.div>
 

@@ -1,15 +1,15 @@
-import { Route, Routes } from 'react-router-dom';
-import { Home } from './pages/Home';
-import { Header } from './components/Header';
-import { About } from './pages/About';
-import { Skills } from './pages/Skills';
-import { Experience } from './pages/Experience';
-import { Education } from './pages/Education';
-import { Portfolio } from './pages/Portfolio';
-import { Contact } from './pages/Contact';
-import { MediaBar } from './components/MediaBar';
-import { Footer } from './components/Footer';
-import { NotFound } from './pages/NotFound';
+import { Route, Routes } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { Header } from "./components/Header";
+import { About } from "./pages/About";
+import { Skills } from "./pages/Skills";
+import { Experience } from "./pages/Experience";
+import { Education } from "./pages/Education";
+import { Portfolio } from "./pages/Portfolio";
+import { Contact } from "./pages/Contact";
+import { MediaBar } from "./components/MediaBar";
+import { Footer } from "./components/Footer";
+import { NotFound } from "./pages/NotFound";
 
 function App() {
   return (

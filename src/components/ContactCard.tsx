@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 interface ContactCardProps {
   id: number;
   image: React.ReactNode;
@@ -18,11 +18,7 @@ export const ContactCard = (props: ContactCardProps) => {
           <h2 className="text-lg font-bold text-white">{name}</h2>
           <span>{description}</span>
         </div>
-        <Link
-          to={link}
-          target="_blank"
-          className="text-teal-600 hover:text-white hover:bg-teal-600 rounded-md p-1"
-        >
+        <Link to={link} target="_blank" className="text-blue-600 hover:text-white hover:bg-blue-600 rounded-md p-1">
           Send a message
         </Link>
       </div>
