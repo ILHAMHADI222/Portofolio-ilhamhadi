@@ -13,7 +13,7 @@ export const Home = () => {
         </div>
         <h2 className="text-blue-500 font-bold text-xl md:text-3xl">Software Engineer | Website Developer | IT Security Enthusiast</h2>
         <p className="text-center md:text-start text-xs md:text-base">Saya adalah software engineer yang sangat berkarir dan ingin membantu perusahaan-perusahaan yang sedang mencari developer baru</p>
-        <Link to="./resume" target="_blank">
+        <Link to="https://drive.google.com/file/d/19zkQ4NayCSQ6yaZMOsOcV6UnZPxy4xUj/view?usp=sharing" target="_blank">
           <motion.div
             initial={resume.initial}
             animate={resume.animated}
