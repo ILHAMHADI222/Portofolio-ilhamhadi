@@ -28,7 +28,7 @@ export const Home = () => {
         <motion.img initial={image.initial} animate={image.animated} transition={image.transition} src="/ilham-no-bg.webp.png" alt="profile" width="100%" height="100%" />
       </motion.div>
 
-      <LeaveCard label="Frontend Dev" />
+      <LeaveCard label="Backend Dev" />
     </section>
   );
 };
